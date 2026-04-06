@@ -33,10 +33,14 @@ public class Calculadora {
                 System.out.println("El resultado de la resta es: " + resultado);
             }
             // MULTIPLICACION
-
-
-
-
+            else if (hola == 3){
+                System.out.println("Ingresa el primer numero: ");
+                int num1 = Integer.parseInt(scanner.nextLine());
+                System.out.println("ingrese el segundo numero: ");
+                int num2= Integer.parseInt(scanner.nextLine());
+                int resultado = num1 * num2;
+                System.out.println("El resultado del producto es: " + resultado);
+                }
             // DIVISION
         }
 
