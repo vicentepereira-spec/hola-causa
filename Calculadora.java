@@ -42,6 +42,16 @@ public class Calculadora {
                 System.out.println("El resultado del producto es: " + resultado);
                 }
             // DIVISION
+            else if (hola == 4){
+                System.out.println("Ingrese el numerador");
+                float num1 = Integer.parseInt(scanner.nextLine());
+                System.out.println("Ingresa el denominador");
+                float num2 = Integer.parseInt(scanner.nextLine());
+                float resultado= num1/num2;
+                System.out.println("El resultado de la división es: " + resultado);
+            }
+        
+
         }
 
     }
